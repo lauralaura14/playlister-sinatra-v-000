@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 <h1><%= @genre.name %></h1>
-=======
-<h1>@genre.name</h1>
->>>>>>> 9ee5675aba799c79363da6f5f624879bfcd416be
+
+<h1><%= @genre.name %></h1>
 
 <p><% @genre.artists.each do |artist| %>
     <a href="/artists/<%= artist.slug %>"><%= artist.name %></a>
